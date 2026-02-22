@@ -6,7 +6,7 @@ import pickle
 import pandas as pd
 import numpy as np
 
-model = load_model("churn_model.h5")
+model = load_model("churn_model.keras")
 
 # load saved encoders and scaler
 with open('label_encoder_gender.pkl', 'rb') as file:
